@@ -5,3 +5,19 @@
 .atacadinho-green{
     background-color: #39B549
 }
+
+.category-yellow{
+    color: #F2F470
+}
+
+.header-title{
+    font-weight:600
+}
+
+.footer-title{
+    font-weight: 100;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
