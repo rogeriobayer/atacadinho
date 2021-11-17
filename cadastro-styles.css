@@ -1,0 +1,82 @@
+.input-search {
+    background-color: #F4F4F4;
+}
+
+.atacadinho-green {
+    background-color: #39B549
+}
+
+
+.principal {
+    display: inline-flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 20%;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.cadastro-title {
+    margin: 30px;
+    margin-bottom: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 29px;
+    color: #39B549;
+}
+
+.pagamento-title {
+    margin: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #39B549;
+}
+
+.pagamento-subtitle {
+    margin: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.form-control {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    width: 80%;
+    background: #F4F4F4;
+    border-radius: 15px;
+}
+
+.form-group {
+    padding: 20px;
+}
+
+.input-search {
+    width: 100%;
+}
+
+.input-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 5px;
+    color: #000000;
+}
