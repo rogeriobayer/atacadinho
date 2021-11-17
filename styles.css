@@ -157,6 +157,12 @@ h2{
     height: 400px;
     width: 400px;
     object-fit: contain;
+}
+
+.cart-screen-image{
     border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
     
 }

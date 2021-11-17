@@ -13,42 +13,59 @@
 
 <body>
     <header class="py-3 mb-3 border-bottom">
-        <div class="container d-grid gap-3 align-items-center" style="grid-template-columns: auto auto auto">
-            <div class="d-flex align-items-center">
-                <img src="assets/logo.svg">
-            </div>
+        <div class="container d-grid align-items-center" style="grid-template-columns: auto auto auto">
+          <div class="d-flex align-items-center">
+            <a href="index.html">
+              <img src="assets/logo.svg">
+            </a>
+        </div>
+    
+          <div class="d-flex align-items-center">
+            <form class="w-75 me-3">
+              <input type="search" class="form-control input-search" placeholder="Busca..." aria-label="Busca">
+            </form>
+          </div>
 
-            <div class="d-flex align-items-center">
-                <form class="w-75 me-3">
-                    <input type="search" class="form-control input-search" placeholder="Busca..." aria-label="Busca">
-                </form>
-            </div>
-
-            <div class="d-flex align-items-center">
-                <button type="button" class="btn btn-success btn-lg rounded-pill atacadinho-green">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-cart" viewbox="0 0 16 16">
-                        <path
-                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                    </svg>
+          <div class="d-flex align-items-center justify-content-center">
+            <button type="button" class="btn btn-success btn-lg rounded-pill atacadinho-green">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewbox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg>
                     Carrinho
-                </button>
+              </button>
             </div>
-        </div>
-        <div class="py-2 mt-4 border-bottom atacadinho-green">
-            <div class="container d-flex flex-wrap white">
-                <ul class="nav justify-content-around">
-                    <li class="nav-item"><a href="#" class="nav-link text-light px-2 active"
-                            aria-current="page">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-light px-2">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-light px-2">Pricing</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-light px-2">FAQs</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-light px-2">About</a></li>
+          </div>
+          <div class="py-2 mt-4 border-bottom atacadinho-green">
+            <div class="container  flex-wrap white">
+              <ul class="nav justify-content-around">
+                <li class="nav-item d-flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="mt-2 bi bi-border-all category-yellow" viewBox="0 0 16 16">
+                    <path d="M0 0h16v16H0V0zm1 1v6.5h6.5V1H1zm7.5 0v6.5H15V1H8.5zM15 8.5H8.5V15H15V8.5zM7.5 15V8.5H1V15h6.5z"/>
+                  </svg>
+                  <h5 href="#" class="nav-link px-2 active category-yellow" aria-current="page"><strong>Categorias</strong></h5>
+                </li>
+                <li class="nav-item"><h5 href="#" class="nav-link text-light header-title px-2"><em>Mais Vendidos</em></h5></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light header-title px-2">Bebidas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light header-title px-2">Hortifruti</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light header-title px-2">Snacks</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light header-title px-2">Guloseimas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light header-title px-2">Orgânicos</a></li>
+                <li class="nav-item"><h5 href="#" class="nav-link text-light header-title px-2">Ofertas do dia</h5></li>
+              </ul>
+            </div>
+          </div>
+      </header>
 
-                </ul>
-            </div>
+      <div class="container p-4 d-flex">
+        <div class="text-muted d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                <path
+                    d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"
+                />
+            </svg>
         </div>
-    </header>
+        <strong class="mx-1"> > </strong><u> Cadastro </u>
+    </div>
 
     <div class="principal">
         <div class="col-6">
