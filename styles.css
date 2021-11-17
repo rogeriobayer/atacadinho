@@ -9,11 +9,11 @@
 .atacadinho-green{
   background-color: #39B549
 }
-.container{
+/* .container{
   display: flex;
   justify-content: center;
   padding: 3%;
-}
+} */
 
 .hero{
   padding: 6.5%;
@@ -48,6 +48,7 @@
   -moz-box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
   box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
 }
+
 
 .product{
   display: flex;
@@ -121,10 +122,41 @@ h2{
     font-weight:600
 }
 
-.footer-title{
+.text-font-light{
     font-weight: 100;
 }
 
 *{
     font-family: 'Montserrat', sans-serif;
+}
+
+
+/*TELA DE PRODUTO*/
+
+.product-screen-price{
+    background-color: #F2F470;
+    color: #5F5F5F;
+    padding: 10px;
+}
+
+.product-screen-old-price{
+    color: #5F5F5F;
+    padding: 10px;
+}
+
+.product-screen-card{
+    border-radius: 40px;
+    padding:50px;
+    -webkit-box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
+}
+
+.product-screen-image{
+    border-radius: 30px;
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+    border-radius: 10px;
+    
 }
