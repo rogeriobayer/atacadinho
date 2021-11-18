@@ -1,27 +1,27 @@
-*{
-  font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
-.input-search{
-  background-color: #F4F4F4;
+.input-search {
+  background-color: #f4f4f4;
 }
 
-.atacadinho-green{
-  background-color: #39B549
+.atacadinho-green {
+  background-color: #39b549;
 }
-/* .container{
+.container-products {
   display: flex;
   justify-content: center;
   padding: 3%;
-} */
+}
 
-.hero{
+.hero {
   padding: 6.5%;
   display: flex;
   justify-content: center;
   align-items: start;
 
-  background-color: black;
+  background-image: url("assets/hortifruti.png");
   height: 385px;
   width: 1200px;
   border-radius: 0px 60px 0px 60px;
@@ -31,7 +31,7 @@
   font-size: 36px;
 }
 
-.principals{
+.principals {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,13 +44,12 @@
   position: absolute;
   top: 550px;
 
-  -webkit-box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
-  -moz-box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
-  box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 4px 20px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 4px 20px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 4px 20px -8px rgba(0, 0, 0, 0.75);
 }
 
-
-.product{
+.product {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,9 +61,9 @@
   width: 170px;
   border-radius: 5px;
 
-  -webkit-box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
-  -moz-box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
-  box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 4px 20px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 4px 20px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 4px 20px -8px rgba(0, 0, 0, 0.75);
 }
 
 .product p {
@@ -76,8 +75,8 @@
   font-weight: normal;
 }
 
-.product button{
-  background-color: #39B549;
+.product button {
+  background-color: #39b549;
   padding: 8px;
   border: none;
   color: white;
@@ -85,84 +84,81 @@
   font-weight: bold;
 }
 
-.product-text{
+.product-text {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.product-row{
+.product-row {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
-.container-row{
+.container-row {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-h2{
+h2 {
   font-size: 24px;
   font-weight: bold;
-  color: #5C5C5C;
+  color: #5c5c5c;
 }
 
-.selected-products{
-
+.selected-products {
 }
 
-.category-yellow{
-    color: #F2F470
+.category-yellow {
+  color: #f2f470;
 }
 
-.header-title{
-    font-weight:600
+.header-title {
+  font-weight: 600;
 }
 
-.text-font-light{
-    font-weight: 100;
+.text-font-light {
+  font-weight: 100;
 }
 
-*{
-    font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
-
 
 /*TELA DE PRODUTO*/
 
-.product-screen-price{
-    background-color: #F2F470;
-    color: #5F5F5F;
-    padding: 10px;
+.product-screen-price {
+  background-color: #f2f470;
+  color: #5f5f5f;
+  padding: 10px;
 }
 
-.product-screen-old-price{
-    color: #5F5F5F;
-    padding: 10px;
+.product-screen-old-price {
+  color: #5f5f5f;
+  padding: 10px;
 }
 
-.product-screen-card{
-    border-radius: 40px;
-    padding:50px;
-    -webkit-box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
-    box-shadow: 3px 4px 20px -8px rgba(0,0,0,0.75);
+.product-screen-card {
+  border-radius: 40px;
+  padding: 50px;
+  -webkit-box-shadow: 3px 4px 20px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 4px 20px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 4px 20px -8px rgba(0, 0, 0, 0.75);
 }
 
-.product-screen-image{
-    border-radius: 30px;
-    height: 400px;
-    width: 400px;
-    object-fit: contain;
+.product-screen-image {
+  border-radius: 30px;
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
 }
 
-.cart-screen-image{
-    border-radius: 10px;
-    height: 50px;
-    width: 50px;
-    object-fit: contain;
-    
+.cart-screen-image {
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
 }
